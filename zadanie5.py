@@ -13,4 +13,4 @@ while zgadywana_liczba!=wylosowana_liczba:
         proba += 1
         zgadywana_liczba=int(input('Spróbuj jeszcze raz. Podaj większą liczbę: ? '))
 proba+=1
-print(f'Prawidłowa odpowiedz !! Zgadłes  za {proba} razem. Gratulacje !!! ')
+print(f'Prawidłowa odpowiedź !! Zgadłeś  za {proba} razem. Gratulacje !!! ')
