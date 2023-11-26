@@ -3,7 +3,7 @@ from random import randint
 
 # napisz program, który odczytuje 3 liczby i sprawdza, czy mogą byc bokami trójkąta, dla mnie określenie troche ogólne,
 # nie do końca rozumiem, czy te liczby mają byc w jakims zakresie itd
-# dlatego zrobione są rozne wersje zadania
+# dlatego zrobione są rozne wersje zadania :)
 
 
 # 1 wersja : użytkownik podaje liczby
