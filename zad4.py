@@ -1,4 +1,4 @@
-#cennik
+# Cennik prac
 gipsowanie=100 #za 1m2 sciany
 malowanie=30 #za metr2
 panele=50 #za m2 podłogi
