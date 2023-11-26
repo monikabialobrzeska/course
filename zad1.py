@@ -1,4 +1,4 @@
-# Obliczanie dnia zwrotu butow
+# Obliczanie dnia zwrotu butow od szewca
 dzien_oddania_butów=int(input('W który dzień tygodnia oddasz buty do naprawy? '))
 czas_trwania_naprawy=int(input('Ile dni potrwa naprawa butów? '))
 
