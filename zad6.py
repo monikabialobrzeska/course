@@ -20,7 +20,7 @@ print(lista_liczb[70:80])
 print(lista_liczb[80:90])
 print(lista_liczb[90:100])
 
-pozycja_skarbu=choice(lista_liczb)
+pozycja_skarbu=choice(lista_liczb) #podaje jego pozycje, zeby cos było mozna sprobowac postrzelac ;) 
 pozycja_gracza=choice(lista_liczb)
 print('pozycja skarbu', pozycja_skarbu)
 print('pozycja gracza', pozycja_gracza)
