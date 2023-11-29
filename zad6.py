@@ -20,12 +20,15 @@ print(lista_liczb[70:80])
 print(lista_liczb[80:90])
 print(lista_liczb[90:100])
 
-pozycja_skarbu=choice(lista_liczb) #podaje jego pozycje, zeby cos było mozna sprobowac postrzelac ;) 
+pozycja_skarbu=choice(lista_liczb)  
 pozycja_gracza=choice(lista_liczb)
-print('pozycja skarbu', pozycja_skarbu)
+print('pozycja skarbu', pozycja_skarbu) #podaje jego pozycje, zeby cos było mozna sprobowac postrzelac ;)
 print('pozycja gracza', pozycja_gracza)
 
+typy_ruchow=('gora','dol','prawo','lewo')
 ruch=input('Gdzie idziesz? :')
+if ruch not in typy_ruchow:
+    ruch = input('Gdzie idziesz? :')
 ile_prob=1
 while pozycja_gracza!=pozycja_skarbu:
     if ruch=='gora':
